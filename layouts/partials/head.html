@@ -28,13 +28,9 @@
 <!-- Image Styles -->
 {{ if .Site.Params.visual.image.enable }}
   <style type="text/css">
-  {{ if .Site.Params.visual.image.file }}
-    .fs-split .split-image { background-image: url("{{ .Site.Params.visual.image.file | absURL }}"); background-position: {{ if .Site.Params.visual.image.position }}{{ .Site.Params.visual.image.position }}{{ else }}center center{{ end }}; }
-  {{ end }}
+    .fs-split .split-image { background-image: url("{{ .Site.Params.visual.image.file | absURL }}"); background-position: center center; }
   </style>
 {{ end }}
 
 <!-- Google Analytics -->
-{{ if and (.Site.GoogleAnalytics) (not (in (printf "%#v" .Site.BaseURL) "localhost")) }}
-  {{ template "_internal/google_analytics.html" . }}
-{{ end }}
+{{ template "_internal/google_analytics_async.html" . }}
