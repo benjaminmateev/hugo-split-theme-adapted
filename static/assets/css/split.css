@@ -25,6 +25,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
+  font-display: 
   font: inherit;
   vertical-align: baseline;
 }
@@ -115,6 +116,7 @@ body.page-template-page-fullsingle-split {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 15px;
+  font-display: swap;
   line-height: 33px;
   letter-spacing: -0.2px;
   color: #c0b283;
@@ -124,6 +126,7 @@ body.page-template-page-fullsingle-split p {
   font-family: proxima-nova;
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
   font-size: 15px;
   line-height: 1.72em;
   text-transform: none;
@@ -197,6 +200,7 @@ body.page-template-page-fullsingle-split p {
 .split-bio {
   padding: 40px 0 20px 0;
   font-family: "Lora", serif;
+  font-display: swap;
 }
 @media (max-width: 1200px) {
   .split-bio {
