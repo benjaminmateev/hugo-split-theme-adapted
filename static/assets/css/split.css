@@ -115,9 +115,9 @@ body.page-template-page-fullsingle-split {
   background-color: #f4f4f4;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 24px;
   font-display: swap;
-  line-height: 33px;
+  line-height: 37px;
   letter-spacing: -0.2px;
   color: #c0b283;
   animation: fadein 1s;
@@ -127,7 +127,7 @@ body.page-template-page-fullsingle-split p {
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-  font-size: 15px;
+  font-size: 24px;
   line-height: 1.72em;
   text-transform: none;
   letter-spacing: .01em;
@@ -189,7 +189,7 @@ body.page-template-page-fullsingle-split p {
 
 .split-intro {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 80px;
   letter-spacing: -2px;
 }
